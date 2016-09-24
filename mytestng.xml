@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="suite1">
+
+	<listeners>
+       <listener class-name="utilities.TakeScreenshotListener"/>
+  	</listeners>
+  
+	<test name="test1">                  
+		<classes>
+			<class name="websitetest.HomePageTest"/>
+		</classes>
+	</test>
+	
+</suite>
+
